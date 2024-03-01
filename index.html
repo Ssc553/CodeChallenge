@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Code Challenge</title>
+
+    <style>
+      #map {
+        height: 500px; 
+        width: 100%;
+      }
+    </style>
+
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      .error {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="index.html" id="navbar__logo"
+          ><img src="/images/logo/Logo-Blue.svg" alt=""
+        /></a>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <a href="index.html" id="navbar__icon">
+            <img src="/images/nav_icons/Home.svg" alt="" class="navbar__icon" />
+          </a>
+          <li class="navbar__item">
+            <a href="/" class="navbar__links">Home</a>
+          </li>
+          <a href="index.html">
+            <img src="/images/nav_icons/Record.svg" id="navbar__icon" alt="" />
+          </a>
+          <li class="navbar__item">
+            <a href="/" class="navbar__links">Records </a>
+          </li>
+          <a href="index.html" id="navbar__icon">
+            <img
+              src="/images/nav_icons/Music Note.svg"
+              id="navbar__icon"
+              alt=""
+            />
+          </a>
+          <li class="navbar__item">
+            <a href="/" class="navbar__links">Music </a>
+          </li>
+          <a href="index.html" id="navbar__icon">
+            <img src="/images/nav_icons/People.svg" id="navbar__icon" alt="" />
+          </a>
+          <li class="navbar__item">
+            <a href="/" class="navbar__links">Artists </a>
+          </li>
+          <a href="index.html" id="navbar__icon">
+            <img
+              src="/images/nav_icons/Calendar.svg"
+              id="navbar__icon"
+              alt=""
+            />
+          </a>
+          <li class="navbar__item">
+            <a href="/" class="navbar__links">Concerts </a>
+          </li>
+
+          <li class="navbar__btn">
+            <a href="/" class="button">Sign Up</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Hero Section -->
+    <div class="main">
+      <div class="main__container">
+        <div class="main__content">
+          <h1 class="main__h1">A.M. Paradox</h1>
+          <h2></h2>
+          <p class="main__p">
+            Christopher Brent Wood, better known by his stage name Brent Faiyaz,
+            is an American singer and record producer. He released his debut
+            project, an extended play entitled A.M. Paradox, in 2016
+          </p>
+          <div class="hero__play__container">
+            <div id="hero__play">
+              <img
+                src="/images/basic_icons/Play button triangle.svg"
+                alt=""
+                id="hero__icon"
+              />
+            </div>
+            <button class="hero__btn">Watch Video</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Services Section -->
+    <div class="services">
+      <div class="services__container">
+        <div class="services__card">
+          <img
+            src="/images/aHR0cDovL2ltYWdlLmloZWFydC5jb20vaW1hZ2VzL3JvdmkvMTA4MC8wMDA0LzMyNy9NSTAwMDQzMjcxNjAuanBn.webp"
+            alt="Card Image"
+          />
+        </div>
+        <div class="services__card">
+          <h1>Brent Faiyas, So<br />Far Gone</h1>
+          <p>
+            Faiyaz began uploading his music onto SoundCloud in 2014 and moved
+            from his hometown Columbia, Maryland to Charlotte, North Carolina
+            before ultimately settling in Los Angeles, California to further his
+            music career. On January 19, 2015 he released his debut single
+            "Allure". On June 1, 2016, Faiyaz released "Invite Me", the lead
+            single from his upcoming debut EP. On September 19, 2016, his 21st
+            birthday, the EP entitled A.M. Paradox was released and received
+            with positive reviews from music critics. On January 26, 2017,
+            Sonder released their debut EP into.
+          </p>
+
+          <button class="button__container">Learn More</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Center Banner  -->
+
+    <div class="center__container">
+      <h2 class="center__header">New Releases</h2>
+      <p class="center__text">
+        New albums every single month, check out the newest & best from <br />
+        Snyder Recording artist, now available on Apple Music & Spotify.
+      </p>
+    </div>
+
+    <!-- Carousel Section -->
+
+    <div class="wrapper__body">
+      <div class="wrapper">
+        <ul class="carousel" id="myCarousel">
+          <li class="card active">
+            <div class="img">
+              <img
+                src="/images/71RLkNIuZNL._SY355_.jpg"
+                alt="img"
+                draggable="false"
+              />
+            </div>
+            <div class="text">
+              <h2>Trapsoul</h2>
+              <h5>BRYSON TILLER</h5>
+              <p>
+                Bryson Djuan Tiller, is an American singer, songwriter and
+                rapper. Born in Lousiville, Kentucky, he started his career in
+                2011, releasing the debut mixtape titled Killer Instinct Vol.1.
+              </p>
+            </div>
+          </li>
+          <li class="card">
+            <div class="img">
+              <img
+                src="/images/71RLkNIuZNL._SY355_.jpg"
+                alt="img"
+                draggable="false"
+              />
+            </div>
+            <div class="text">
+              <h2>Trapsoul</h2>
+              <h5>BRYSON TILLER</h5>
+              <p>
+                Bryson Djuan Tiller, is an American singer, songwriter and
+                rapper. Born in Lousiville, Kentucky, he started his career in
+                2011, releasing the debut mixtape titled Killer Instinct Vol.1.
+              </p>
+            </div>
+          </li>
+          <li class="card">
+            <div class="img">
+              <img
+                src="/images/71RLkNIuZNL._SY355_.jpg"
+                alt="img"
+                draggable="false"
+              />
+            </div>
+            <div class="text">
+              <h2>Trapsoul</h2>
+              <h5>BRYSON TILLER</h5>
+              <p>
+                Bryson Djuan Tiller, is an American singer, songwriter and
+                rapper. Born in Lousiville, Kentucky, he started his career in
+                2011, releasing the debut mixtape titled Killer Instinct Vol.1.
+              </p>
+            </div>
+          </li>
+          <li class="card">
+            <div class="img">
+              <img
+                src="/images/71RLkNIuZNL._SY355_.jpg"
+                alt="img"
+                draggable="false"
+              />
+            </div>
+            <div class="text">
+              <h2>Trapsoul</h2>
+              <h5>BRYSON TILLER</h5>
+              <p>
+                Bryson Djuan Tiller, is an American singer, songwriter and
+                rapper. Born in Lousiville, Kentucky, he started his career in
+                2011, releasing the debut mixtape titled Killer Instinct Vol.1.
+              </p>
+            </div>
+          </li>
+          <li class="card">
+            <div class="img">
+              <img
+                src="/images/71RLkNIuZNL._SY355_.jpg"
+                alt="img"
+                draggable="false"
+              />
+            </div>
+            <div class="text">
+              <h2>Trapsoul</h2>
+              <h5>BRYSON TILLER</h5>
+              <p>
+                Bryson Djuan Tiller, is an American singer, songwriter and
+                rapper. Born in Lousiville, Kentucky, he started his career in
+                2011, releasing the debut mixtape titled Killer Instinct Vol.1.
+              </p>
+            </div>
+          </li>
+          <li class="card">
+            <div class="img">
+              <img
+                src="/images/71RLkNIuZNL._SY355_.jpg"
+                alt="img"
+                draggable="false"
+              />
+            </div>
+            <div class="text">
+              <h2>Trapsoul</h2>
+              <h5>BRYSON TILLER</h5>
+              <p>
+                Bryson Djuan Tiller, is an American singer, songwriter and
+                rapper. Born in Lousiville, Kentucky, he started his career in
+                2011, releasing the debut mixtape titled Killer Instinct Vol.1.
+              </p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="car__btn__container">
+      <div id="car__btnr" class="car__left">
+        <img
+          src="/images/basic_icons/Arrows Button Left.svg"
+          alt=""
+          id="car__icon"
+        />
+      </div>
+      <div id="car__btnl" class="car__right">
+        <img
+          src="/images/basic_icons/Arrows Button Right.svg"
+          alt=""
+          id="car__icon"
+        />
+      </div>
+    </div>
+
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d775.3086967871308!2d-94.66901841882243!3d38.98713756610211!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87c0eb66d3f79dd9%3A0xa7a51cba69767a7e!2sLifted%20Logic!5e0!3m2!1sen!2sus!4v1709158253055!5m2!1sen!2sus"
+      width="100%"
+      height="450"
+      style="border: 0"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+    ></iframe>
+
+    <div class="contact__body">
+      <div class="contact__container">
+        <form id="contactForm" onsubmit="return validateForm()">
+          <h1>Get in Touch</h1>
+          <p>
+            New albums every single month, check out the newest & best from
+            Snyder Recording artist, now available on Apple Music & Spotify.
+          </p>
+          <div class="contact__card">
+            <div class="contact__box">
+              <label for="firstName" class="name">First Name</label>
+              <input
+                type="text"
+                id="firstName"
+                name="firstName"
+                placeholder="Your first name"
+                required
+              />
+              <span id="firstNameError" class="error"></span>
+            </div>
+            <div class="contact__box">
+              <label for="lastName">Last Name</label>
+              <input
+                type="text"
+                id="lastName"
+                name="lastName"
+                placeholder=" Last name"
+                required
+              />
+              <span id="lastNameError" class="error"></span>
+            </div>
+            <div class="contact__box">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Your email address"
+                required
+              />
+              <span id="emailError" class="error"></span>
+            </div>
+            <div class="contact__box">
+              <label for="reason">Reason for Contacting</label>
+              <select id="reason" name="reason">
+                <option value="" disabled selected>Select One</option>
+                <option value="general">General Inquiry</option>
+                <option value="feedback">Feedback</option>
+                <option value="support">Support</option>
+              </select>
+              <span id="reasonError" class="error"></span>
+            </div>
+            <div class="contact__box">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                placeholder="Write a brief message..."
+              ></textarea>
+              <span id="messageError" class="error"></span>
+            </div>
+            <button type="submit">Submit</button>
+          </div>
+        </form>
+        <div class="contact__card">
+          <img
+            src="/images/harry-swales-0l0KjNoAfAk-unsplash.jpg"
+            alt="Card Image"
+          />
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer__container">
+        <div class="footer__section">
+          <a href="index.html" id="footer__logo"
+            ><img src="/images/logo/Logo-Blue.svg"
+          /></a>
+          <p>8521 W Fairfax Rd<br />Los Angeles, CA<br /></p>
+          <p>
+            990210<br />
+            (909) 505 4302
+          </p>
+        </div>
+        <div class="footer__section">
+          <h3>EXPLORE</h3>
+          <ul>
+            <li><a href="/about">About Us</a></li>
+            <li><a href="/our-story">Our Story</a></li>
+            <li><a href="/team">Team</a></li>
+            <li><a href="/careers">Careers</a></li>
+            <li><a href="/faq">FAQ</a></li>
+          </ul>
+        </div>
+        <div class="footer__section">
+          <h3>MUSIC</h3>
+          <ul>
+            <li><a href="/music/missing-out">Missing Out</a></li>
+            <li><a href="/music/trapsoul">Trapsoul</a></li>
+            <li><a href="/music/sonder-sons">Sonder Sons</a></li>
+            <li><a href="/music/paradise-today">Paradise Today</a></li>
+            <li><a href="/music/needed">Needed</a></li>
+          </ul>
+        </div>
+        <div class="footer__section">
+          <h3>ARTISTS</h3>
+          <ul>
+            <li><a href="/artists/brent-faiyaz">Brent Faiyaz</a></li>
+            <li><a href="/artists/drake">Drake</a></li>
+            <li><a href="/artists/bryson-ford">Bryson Ford</a></li>
+            <li><a href="/artists/young-ford">Young Ford</a></li>
+            <li><a href="/artists/roy-fresco">Roy Fresco</a></li>
+          </ul>
+        </div>
+        <div class="footer__section">
+          <h3>RECORDS</h3>
+          <ul>
+            <li><a href="/records/what-a-time">What a Time</a></li>
+            <li><a href="/records/coming-home">Coming Home</a></li>
+            <li><a href="/records/always-first">Always First</a></li>
+            <li><a href="/records/so-far-gone">So Far Gone</a></li>
+            <li><a href="/records/big-bluez">Big Bluez</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>
+          <a
+            href="/privacy-policy" id="privacy__policy"
+            
+            >Privacy Policy</a
+          >
+          <a href="/terms-conditions" id="privacy__policy"
+            
+            >Terms & Conditions</a
+          >
+        </p>
+        <div class="social__icons">
+          <a href="index.html" id="footer__icon"
+            ><img src="/images/social_icons/007-instagram 1.svg"
+          /></a>
+          <a href="index.html" id="footer__icon"
+            ><img src="/images/social_icons/009-youtube 1.svg"
+          /></a>
+          <a href="index.html" id="footer__icon"
+            ><img src="/images/social_icons/004-twitter 1.svg"
+          /></a>
+          <a href="index.html" id="footer__icon"
+            ><img src="/images/social_icons/002-facebook 1.svg"
+          /></a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <script src="app.js"></script>
+  </body>
+</html>
